@@ -1,0 +1,22 @@
+/* notfound_style.css */
+.notfound {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .notfound h1 {
+    font-size: 3rem;
+    color: #dc3545; /* Bootstrap danger color */
+  }
+  
+  .notfound p {
+    font-size: 1.25rem;
+    color: #6c757d; /* Bootstrap secondary color */
+  }
+  
+  .notfound img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  

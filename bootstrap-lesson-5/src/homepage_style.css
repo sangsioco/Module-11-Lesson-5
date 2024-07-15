@@ -1,0 +1,76 @@
+/* homepage_style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light grey background for better readability */
+  color: #333; /* Dark grey text color for good contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40; /* Darker navbar background */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #495057; /* Slightly lighter grey for hover effect */
+}
+
+.homepage {
+  background-color: #e9ecef; /* Light grey background for the main content area */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #dee2e6; /* Add border to the HomePage */
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.cta-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cta-button .shop-now-btn {
+  background-color: #007bff; /* Bootstrap primary color */
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Add shadow to the button */
+}
+
+.cta-button .shop-now-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.featured-card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the cards */
+}
+
+.featured-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.featured-card .card-body {
+  text-align: left;
+}
